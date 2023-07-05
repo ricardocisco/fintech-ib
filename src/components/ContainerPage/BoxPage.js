@@ -138,25 +138,25 @@ export default function BoxPage() {
             </LinkStyled>           
           </MenuLi>
           <MenuLi>
-            <LinkStyled>
+            <LinkStyled to="/Carteira">
               <Icon><IoMdWallet size={30} color="#fff"/></Icon>
               {extended && <Text>Carteira</Text>}
             </LinkStyled>           
           </MenuLi>
           <MenuLi>
-            <LinkStyled>
+            <LinkStyled to="/Usuarios">
               <Icon><IoMdMail size={30} color="#fff"/></Icon>
               {extended && <Text>Usuarios</Text>}
             </LinkStyled>           
           </MenuLi>
           <MenuLi>
-            <LinkStyled>
+            <LinkStyled to="/Mapa">
             <Icon><IoMdNavigate size={30} color="#fff"/></Icon>
             {extended && <Text>Mapa</Text>}
             </LinkStyled>           
           </MenuLi>
           <MenuLi>
-            <LinkStyled>
+            <LinkStyled to="/Configuracao">
             <Icon><IoMdSettings size={30} color="#fff"/></Icon>
             {extended && <Text>Configurações</Text>}
             </LinkStyled>           
